@@ -9,5 +9,6 @@ public with sharing class SampleClass_TEST {
     	update contact;
     	contact = [select FirstName from Contact where Id = :contact.Id];
     	System.assertEquals('Test', contact.FirstName);
+    	System.assertEquals(0, 1);
     }
 }
