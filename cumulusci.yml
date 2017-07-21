@@ -3,7 +3,7 @@ project:
     package:
         name: CumulusCI Test
         namespace: ccitest
-        api_version: 33.0
+        api_version: 38.0
     git:
         repo_url: https://github.com/SalesforceFoundation/CumulusCI-Test
     dependencies:
@@ -14,6 +14,9 @@ tasks:
     example_task:
         description: An example project-level task that does nothing
         class_path: tasks.example.ExampleTask
+
+    run_tests_debug:
+        class_path: tasks.apextests.RunApexTests
 
 flows:
     ci_test_concurrency:
