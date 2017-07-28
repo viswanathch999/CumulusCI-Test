@@ -10,7 +10,7 @@
     	showScopes();
     	      		
     });
-    // foo
+    
     function expandListToClass(liClass) {
         var cl = $('#mynavbar').collapsibleList('.header', {search: false, animate: false});
         var clist = $('#mynavbar').data('collapsibleList');
