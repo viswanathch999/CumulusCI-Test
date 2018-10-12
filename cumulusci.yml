@@ -1,7 +1,7 @@
 project:
-    name: CumulusCI Test
+    name: qentell123
     package:
-        name: CumulusCI Test
+        name: qentell123
         namespace: ccitest
         api_version: 33.0
     git:
